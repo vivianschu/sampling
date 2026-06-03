@@ -146,6 +146,15 @@ The survey targets all people 15 years or older living in private households acr
 
 4. Sampling frame
 Landline and cellular telephone numbers that were drawn from the Census of Population and other administrative sources were combined, then this was integrated with Statistics Canada's dwelling frame. This was done in order to replace the older random digit dialing approach and to improve the coverage of cell-phone-only households, and records on the frame represent groups of telephone numbers which are linked to a single address.
+
+5. Survey modes
+This was the first survey to offer respondants an online electronic self-completion option. Data was also collected through Computer-Assisted Telephone Interviewing (CATI). Respondants could choose to complete the sruvey in English or French. The average interview length was 44 minutes long.
+
+6. Timeline
+Data collection took place between September 4, 2018 to December 28, 2018, and the data was released publicly on January 26, 2021.
+
+7. Response rate
+The response rate was 41.9%.
 ```
 
 ## Rubric
