@@ -135,7 +135,17 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
+1. Sample type
+The 2018 GSS GVP uses a probability sample with a cross-sectional design. It uses a random stratified sample with two-stages: telephone number groups (first stage) aand one eligible individual per household is randomly selected (second stage). They also use "rejective sampling" to exclude a portion of non-volunteers from the long interview and routed them to a short interview.
 
+2. Sample size
+A field size of 50,000 units were drawn. Around 40,000 invitation letters to the electronic questionnaire were sent out to the selected households. A completed sample of 24,000 questionnaires was targeted.
+
+3. Target population
+The survey targets all people 15 years or older living in private households across the 10 Canadian provinces. It excludes full-time residents of institutions (e.g., long-term care facilities, prisons), and residents of the 3 territories.
+
+4. Sampling frame
+Landline and cellular telephone numbers that were drawn from the Census of Population and other administrative sources were combined, then this was integrated with Statistics Canada's dwelling frame. This was done in order to replace the older random digit dialing approach and to improve the coverage of cell-phone-only households, and records on the frame represent groups of telephone numbers which are linked to a single address.
 ```
 
 ## Rubric
