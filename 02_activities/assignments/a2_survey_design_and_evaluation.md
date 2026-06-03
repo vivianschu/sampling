@@ -44,26 +44,90 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand why entry-level and lower-level employees are leaving the company at a high rate. The survey will focus on factors such as compensation, management, workload, and career development. Ideally, results are used by Human Resources to prioritize and implement changes that improve day-to-day working conditions and longer-term job satisfaction for employees in these roles.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: all current entry-level and lower-level employees at the company across all deperatments, as well as employees in these roles who have volunarily left the company withing the past 6 months.
+
+Sampling frame: The HR department's internal employee records (active staff) and exit interview/offboarding records (recently departed employees). These records include contact information, role level, department, and tenure.
+
+Sampling units: Individual employees (both current and recently departed).
+
+Observational units: Same as sampling units where each individual employee is both selected and observed directly.
+
+The sampling strategy will be a stratified random sample, with strata defined by department and employement status (current vs. recently departed). This is to ensure that no single large department dominates the results. Including former employees is important to understand why turnover is occurring.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long did you work (or have worked) in your current/most recent role at the company?
+ - Less than 6 months
+ - 7 to 12 months
+ - 1 to 2 years
+ - 2 to 3 years
+ - More than 3 years
+
+2. How satisified are/were you with your compensation (salary + benefits) relative to your responsibilities in this role?
+ - Very dissatisfied
+ - Dissatisfied
+ - Neutral
+ - Satisfied
+ - Very Satisfied
+
+3. How manageable is your current workload? 
+ - Very manageable
+ - Somewhat manageable
+ - Neutral
+ - Somewhat unmanageable
+ - Very unmanageable
+
+4. How supported do you feel by your direct manager?
+ - Not supported at all
+ - Rarely supported
+ - Sometimes supported
+ - Usually supported
+ - Very well supported
+
+5. Were there clear opportunities for advancement or skill development available to you in 
+   this role?
+ - No, there was no visible path forward
+ - Somewhat, options existed but were hard to access
+ - Yes, development opportunities were accessible and encouraged
+
+6. Which of the following would most improve your experience at work? Choose up to three.
+ - Higher pay
+ - Better benefits
+ - More flexible scheduling
+ - Clearer promotion paths
+ - Better training
+ - More manageable workload
+ - Better communication from managers
+ - More recognition for good work
+ - Better workplace culture
+ - Other: ________
+
+7. How often did you feel that your contributions were recognized or valued by the company?
+ - Never
+ - Rarely
+ - Sometimes
+ - Often
+ - Almost always
+
+8. If you have considered leaving, what is the main reason?
+ - Compensation or benefits
+ - Workload or stress
+ - Lack of career growth or advancement
+ - Poor management
+ - Workplace culture
+ - Scheduling or flexibility
+ - Better opportunity elsewhere
+ - Personal reasons
+ - Other: ________
+ - Not applicable
+
+9. Is there anything specific the company could have done - or could do now - to improve your experience in this role? (Open text)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +135,7 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+
 ```
 
 ## Rubric
