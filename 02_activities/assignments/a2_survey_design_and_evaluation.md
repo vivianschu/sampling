@@ -155,6 +155,31 @@ Data collection took place between September 4, 2018 to December 28, 2018, and t
 
 7. Response rate
 The response rate was 41.9%.
+
+8. Weights
+Each respondent was assigned a person-level weight which reflected the number of people in that target population they represent so that weighted totals match independent age-sex-province estimates and was also adjusted for the rejected subsampling which was applied to non-volunters. Weights were also adjusted to align with the weighted income distribution with the 2017 Canadian Income Survey by province. Bootstrap weights were also provided to support variance estimation.
+
+9. Data processing
+Data was processed using the Social Survey Processing Environment (SSPE) which is Statistics Canada's standardized framework for survey processing. Edits were applied automatically and manually including edits to flow to ensure that respondents followed the correct skip logic and consistency. Range checks were also built into the CATI system. Quality control/validation included analysis of changes over time, and cross-tabulations.
+
+10. Cleaning, imputation, etc.
+Nearest-neighbor donor imputation was used to address missing values where each record with the missing data (recipient) was matched against a pool of complete records (donors) using a scoring function where the best-matching donor's values wre used to fill in the gaps. Mean imputation was used in cases where donor imputation was not possible. Imputation was carried out sequentially covering personal and family income, formal volunteering variables, informal volunteering variables, and donation-related variables. For income, the survery used tax records (2017 T1 Family File) which were linked to 81.9% of respondents, with imputation covering the remainder.
+
+11. Sources of error
+Sampling error and non-sampling error are both present. For sampling error, results from a sample will differ from what a full census would produce. For non-sampling error, this could have included non-response error, coverage error, response error, processing error (e.g., mistakes in data entry, coding). 
+
+12. Limitations and known biases
+The 2018 cycle was the first to offer an online response option and so results may not be directly comparable to previous interations of the survey. StatCan does caution against comparing the 2018 estimates with earlier cycles. The telephone and dwelling-based frame excludes people without a phone or a stable address, which may underocutn vulnerable/marginalized groups. First Nations people living on reserve and residents of the territories are excluded entirely. Non-response bias (<50% response rate, voluntary) may introduce results that are systematically more different from those who didn't complete the survey.
+
+13. Links to documentation and additional sources
+ - Survey methodology and data accuracy (Statistics Canada IMDB record for Cycle 33, 2018):
+ https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
+ - Summary of changes across GSS GVP cycles:
+ https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getMainChange&Id=143876
+
+ - The Daily release announcement (January 26, 2021):
+ https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm
 ```
 
 ## Rubric
