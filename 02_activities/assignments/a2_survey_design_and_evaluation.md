@@ -44,26 +44,90 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand why entry-level and lower-level employees are leaving the company at a high rate. The survey will focus on factors such as compensation, management, workload, and career development. Ideally, results are used by Human Resources to prioritize and implement changes that improve day-to-day working conditions and longer-term job satisfaction for employees in these roles.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: all current entry-level and lower-level employees at the company across all deperatments, as well as employees in these roles who have volunarily left the company withing the past 6 months.
+
+Sampling frame: The HR department's internal employee records (active staff) and exit interview/offboarding records (recently departed employees). These records include contact information, role level, department, and tenure.
+
+Sampling units: Individual employees (both current and recently departed).
+
+Observational units: Same as sampling units where each individual employee is both selected and observed directly.
+
+The sampling strategy will be a stratified random sample, with strata defined by department and employement status (current vs. recently departed). This is to ensure that no single large department dominates the results. Including former employees is important to understand why turnover is occurring.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long did you work (or have worked) in your current/most recent role at the company?
+ - Less than 6 months
+ - 7 to 12 months
+ - 1 to 2 years
+ - 2 to 3 years
+ - More than 3 years
+
+2. How satisified are/were you with your compensation (salary + benefits) relative to your responsibilities in this role?
+ - Very dissatisfied
+ - Dissatisfied
+ - Neutral
+ - Satisfied
+ - Very Satisfied
+
+3. How manageable is your current workload? 
+ - Very manageable
+ - Somewhat manageable
+ - Neutral
+ - Somewhat unmanageable
+ - Very unmanageable
+
+4. How supported do you feel by your direct manager?
+ - Not supported at all
+ - Rarely supported
+ - Sometimes supported
+ - Usually supported
+ - Very well supported
+
+5. Were there clear opportunities for advancement or skill development available to you in 
+   this role?
+ - No, there was no visible path forward
+ - Somewhat, options existed but were hard to access
+ - Yes, development opportunities were accessible and encouraged
+
+6. Which of the following would most improve your experience at work? Choose up to three.
+ - Higher pay
+ - Better benefits
+ - More flexible scheduling
+ - Clearer promotion paths
+ - Better training
+ - More manageable workload
+ - Better communication from managers
+ - More recognition for good work
+ - Better workplace culture
+ - Other: ________
+
+7. How often did you feel that your contributions were recognized or valued by the company?
+ - Never
+ - Rarely
+ - Sometimes
+ - Often
+ - Almost always
+
+8. If you have considered leaving, what is the main reason?
+ - Compensation or benefits
+ - Workload or stress
+ - Lack of career growth or advancement
+ - Poor management
+ - Workplace culture
+ - Scheduling or flexibility
+ - Better opportunity elsewhere
+ - Personal reasons
+ - Other: ________
+ - Not applicable
+
+9. Is there anything specific the company could have done - or could do now - to improve your experience in this role? (Open text)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +135,51 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type
+The 2018 GSS GVP uses a probability sample with a cross-sectional design. It uses a random stratified sample with two-stages: telephone number groups (first stage) aand one eligible individual per household is randomly selected (second stage). They also use "rejective sampling" to exclude a portion of non-volunteers from the long interview and routed them to a short interview.
+
+2. Sample size
+A field size of 50,000 units were drawn. Around 40,000 invitation letters to the electronic questionnaire were sent out to the selected households. A completed sample of 24,000 questionnaires was targeted.
+
+3. Target population
+The survey targets all people 15 years or older living in private households across the 10 Canadian provinces. It excludes full-time residents of institutions (e.g., long-term care facilities, prisons), and residents of the 3 territories.
+
+4. Sampling frame
+Landline and cellular telephone numbers that were drawn from the Census of Population and other administrative sources were combined, then this was integrated with Statistics Canada's dwelling frame. This was done in order to replace the older random digit dialing approach and to improve the coverage of cell-phone-only households, and records on the frame represent groups of telephone numbers which are linked to a single address.
+
+5. Survey modes
+This was the first survey to offer respondants an online electronic self-completion option. Data was also collected through Computer-Assisted Telephone Interviewing (CATI). Respondants could choose to complete the sruvey in English or French. The average interview length was 44 minutes long.
+
+6. Timeline
+Data collection took place between September 4, 2018 to December 28, 2018, and the data was released publicly on January 26, 2021.
+
+7. Response rate
+The response rate was 41.9%.
+
+8. Weights
+Each respondent was assigned a person-level weight which reflected the number of people in that target population they represent so that weighted totals match independent age-sex-province estimates and was also adjusted for the rejected subsampling which was applied to non-volunters. Weights were also adjusted to align with the weighted income distribution with the 2017 Canadian Income Survey by province. Bootstrap weights were also provided to support variance estimation.
+
+9. Data processing
+Data was processed using the Social Survey Processing Environment (SSPE) which is Statistics Canada's standardized framework for survey processing. Edits were applied automatically and manually including edits to flow to ensure that respondents followed the correct skip logic and consistency. Range checks were also built into the CATI system. Quality control/validation included analysis of changes over time, and cross-tabulations.
+
+10. Cleaning, imputation, etc.
+Nearest-neighbor donor imputation was used to address missing values where each record with the missing data (recipient) was matched against a pool of complete records (donors) using a scoring function where the best-matching donor's values wre used to fill in the gaps. Mean imputation was used in cases where donor imputation was not possible. Imputation was carried out sequentially covering personal and family income, formal volunteering variables, informal volunteering variables, and donation-related variables. For income, the survery used tax records (2017 T1 Family File) which were linked to 81.9% of respondents, with imputation covering the remainder.
+
+11. Sources of error
+Sampling error and non-sampling error are both present. For sampling error, results from a sample will differ from what a full census would produce. For non-sampling error, this could have included non-response error, coverage error, response error, processing error (e.g., mistakes in data entry, coding). 
+
+12. Limitations and known biases
+The 2018 cycle was the first to offer an online response option and so results may not be directly comparable to previous interations of the survey. StatCan does caution against comparing the 2018 estimates with earlier cycles. The telephone and dwelling-based frame excludes people without a phone or a stable address, which may underocutn vulnerable/marginalized groups. First Nations people living on reserve and residents of the territories are excluded entirely. Non-response bias (<50% response rate, voluntary) may introduce results that are systematically more different from those who didn't complete the survey.
+
+13. Links to documentation and additional sources
+ - Survey methodology and data accuracy (Statistics Canada IMDB record for Cycle 33, 2018):
+ https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+
+ - Summary of changes across GSS GVP cycles:
+ https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getMainChange&Id=143876
+
+ - The Daily release announcement (January 26, 2021):
+ https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm
 ```
 
 ## Rubric
